@@ -25,4 +25,4 @@
       command: docker push sonydonipati/petstore:latest
 
     - name: Run container
-      command: docker run -d --name pet1 -p 8081:8080 sonydonipati/petstore:latest
+      command: docker run -d --name pet2 -p 8081:8080 sonydonipati/petstore:latest
